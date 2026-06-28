@@ -6,7 +6,7 @@ description = "Canonical reference ZeroClaw WASM tool plugin: a config-driven re
 license = "Apache-2.0"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 wit-bindgen = "0.46"
