@@ -1,0 +1,7 @@
+name = "zeroclaw-reference-plugin"
+version = "0.1.0"
+description = "Canonical reference ZeroClaw tool plugin: a config-driven redact tool"
+author = "ZeroClaw Labs"
+wasm_path = "reference-plugin.wasm"
+capabilities = ["tool"]
+permissions = ["config_read"]
